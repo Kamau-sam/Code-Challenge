@@ -84,8 +84,8 @@ else if (grossSalary > 100000){
 const nssfDeductions =(basicSalary * 0.06) 
 
 // gross salary is basic salary + benefits if any
-
 // Finally lets calculate the netSalary
+
 const netSalary = (grossSalary - nssfDeductions - nhifDeduction - PAYE)
  //Here is a means to return with netSalary as the example 
 return{
